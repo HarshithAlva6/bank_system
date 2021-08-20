@@ -14,7 +14,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 // simple route
-app.get("/", (req, res) => {
+app.get("/server", (req, res) => {
   res.json({ message: "Welcome to bezkoder application." });
 });
 app.use("/create", require("./routes/UPIRouter"));
