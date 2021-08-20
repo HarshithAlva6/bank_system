@@ -1,0 +1,30 @@
+.first {
+    width: 50%;
+    height: 30%;
+    border: 2px solid black;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    color: whitesmoke;
+}
+.second {
+    padding: 10px;
+    left: 0;
+}
+.third {
+    margin: auto;
+}
+.new {
+    width: 75%;
+    height: 25%;
+    margin: auto 10%;
+    box-shadow: 4px 4px 2px whitesmoke;
+}
+.heading {
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 2% auto;
+}

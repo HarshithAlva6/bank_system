@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+.App {
+  text-align: center;
+  background-color: #242582;
+  background-size: contain;
+  font-family: 'Poppins', sans-serif;
+}
+.App span {
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  width: 100%;
+  margin: auto;
+}
+.tab {
+  float: left;
+  padding: 10px;
+  margin-left: 10px;
+  width: 10%;
+  z-index: 1;
+}

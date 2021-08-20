@@ -1,0 +1,45 @@
+.card {
+    background-color: #fff;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(25, 2, 235, 0.19);
+    margin: 5% auto;
+}
+.first {
+    height: 100%;
+}
+.inputs {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1.5px solid #1d7add;
+    width: 75%;
+    margin: 10% auto;
+}
+.inputs label {
+    font-weight: bold;
+    font-size: large;
+}
+input {
+    border: none;
+    width: 100%;
+}
+input:focus {
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.but1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 0 10%;
+}
+.back {
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+}

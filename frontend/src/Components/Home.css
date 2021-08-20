@@ -1,0 +1,29 @@
+.home {
+    height: 100%;
+    margin: 10% auto;
+}
+.split {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 auto;
+}
+.buttons {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+.buttons button {
+    border-radius: 10px;
+    color: black;
+    background: rgb(4, 104, 255);
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px auto;
+}
+.buttons img {
+    width: 150px;
+    height:150px;
+}
