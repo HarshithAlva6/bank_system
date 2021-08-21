@@ -36,7 +36,7 @@ import axios from 'axios';
             desc: location.state.detail.desc,
             status: location.state.detail.status
         }
-        axios.post('http://localhost:3000/create', newUPI);
+        axios.post('/create', newUPI);
         setUpi(newUPI);
     }
     

@@ -50,7 +50,7 @@ import { useHistory } from 'react-router';
              num: input.num,
              pWord: input.pWord
          }
-         ok && axios.post('http://localhost:3000/customer', newCust);
+         ok && axios.post('/customer', newCust);
          ok && setInput({
              name: '',
              email: '',
